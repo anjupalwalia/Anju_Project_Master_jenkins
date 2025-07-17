@@ -1,0 +1,6 @@
+cumulusci==3.81.0
+robotframework-jsonlibrary
+robotframework
+robotframework-datadriver[xls]
+robotframework-seleniumlibrary
+robotframework-requests
