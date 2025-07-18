@@ -31,7 +31,7 @@ Amount/Quantity Based - No Agreement
     ...    ${business_reason_impact_value}    ${negotiation_details_value}    ${active_supplier_value}    
     ...    ${active_supplier_address_value}    ${on_behalf_of}
     Log    ${TEST_NAME}\n${mandatory_commodity_value}\n${chart_of_accounts_value}\n${region_value}\n${cost_center_value}\n${product_value}\n${industry_value}\n${market_segment_value}\n${project_value}\n${location_value}\n${item_description_value}\n${amount_value}\n${quantity_value}\n${unit_price_value}\n${currency_value}\n${need_by_date_value}\n${service_start_date_value}\n${service_end_date_value}\n${ship_to_address_value}\n${spend_family_value}\n${spend_group_value}\n${commodity_value}
-    Given User Launches Finance Force in browser
+     Given User Launches Finance Force in browser
     And User Logs into Finance Force as Requester
     When User is clicking on Create New Intake Request
      And User is filling the fields and submit the PIR for adding No Line Iteam    ${mandatory_commodity_value}    ${chart_of_accounts_value}    ${region_value}
